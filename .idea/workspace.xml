@@ -4,8 +4,6 @@
     <list default="true" id="b4241e39-5431-4cca-a994-f960ef923778" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/modelo/pojo/Candidato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/modelo/pojo/Candidato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/modelo/pojo/Tecnologia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/modelo/pojo/Tecnologia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/segundo_cuestionario/EvaluacionTecnicaPil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/segundo_cuestionario/EvaluacionTecnicaPil2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

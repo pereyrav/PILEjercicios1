@@ -11,10 +11,10 @@ public class Candidato implements Comparable<Candidato> {
     private String apellido;
 
     private double pretensionSalarial;
-    private static Integer aniosExperiencia;
+    private Integer aniosExperiencia;
 
 
-    private static String tecnologias;
+    private String tecnologias;
 
     public Candidato(Long id, String nombre, String apellido, Double pretensionSalarial, Integer aniosExperiencia, String tecnologias) {
         this.id = id;
@@ -49,8 +49,8 @@ public class Candidato implements Comparable<Candidato> {
         this.apellido = apellido;
     }
 
-    public static Integer getAniosExperiencia() {
-        return aniosExperiencia;
+    public Integer getAniosExperiencia() {
+        return  aniosExperiencia;
     }
 
     public void setAniosExperiencia(Integer aniosExperiencia) {
@@ -65,7 +65,7 @@ public class Candidato implements Comparable<Candidato> {
         this.pretensionSalarial = pretensionSalarial;
     }
 
-    public static String getTecnologias() {
+    public String getTecnologias() {
         return tecnologias;
     }
 
@@ -100,7 +100,7 @@ public class Candidato implements Comparable<Candidato> {
         return this.id.compareTo(o.id);
     }
 
-    public static void Tecnologias() {
+    public void Tecnologias() {
         List<Tecnologia> listaTecnologias = new ArrayList<>();
         Tecnologia tecnologia = new Tecnologia(1L, "Java");
         Tecnologia tecnologia1 = new Tecnologia(2L, "Angular");
@@ -119,9 +119,9 @@ public class Candidato implements Comparable<Candidato> {
         listaTecnologias.add(tecnologia6);
         listaTecnologias.add(tecnologia7);
     }
-    public static String ordenarTecnologias() {
-        String tecnologiasOrdenadas = Candidato.getTecnologias();
-        tecnologiasOrdenadas.toString().compareToIgnoreCase(tecnologias);
-        return tecnologiasOrdenadas;
+    public List<Tecnologia> ordenarTecnologias() {
+        List<Tecnologia> listaTecnologias = new ArrayList<>();
+        listaTecnologias.stream().sorted();
+        return listaTecnologias;
     }
 }
