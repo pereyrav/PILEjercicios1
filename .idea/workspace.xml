@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4241e39-5431-4cca-a994-f960ef923778" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackEndPIL 1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/modelo/pojo/Candidato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/modelo/pojo/Candidato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/modelo/pojo/Tecnologia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/modelo/pojo/Tecnologia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/segundo_cuestionario/EvaluacionTecnicaPil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/segundo_cuestionario/EvaluacionTecnicaPil2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +22,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pil/moby/evaluacion_tecnica/segundo_cuestionario/EvaluacionTecnicaPil2.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EXeEEOzYjJD8Rnrl6QUWdWj3gw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,12 +39,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Cursos/appfacturas"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ejercicios">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Cursos\BackEndPIL 1\src\main\java\com\pil\moby\evaluacion_tecnica\segundo_cuestionario" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EvaluacionTecnicaPil2">
     <configuration name="Ejercicios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicios" />
+      <option name="MAIN_CLASS_NAME" value="main.java.com.pil.moby.evaluacion_tecnica.primer_cuestionario.Ejercicios" />
       <module name="BackEndPIL 1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,8 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EvaluacionTecnicaPil2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.pil.moby.evaluacion_tecnica.segundo_cuestionario.EvaluacionTecnicaPil2" />
+      <module name="BackEndPIL 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.pil.moby.evaluacion_tecnica.segundo_cuestionario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvaluacionTecnicaPil2" />
         <item itemvalue="Application.Ejercicios" />
         <item itemvalue="Application.Evaluacion1" />
       </list>
